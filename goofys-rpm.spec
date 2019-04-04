@@ -2,11 +2,12 @@
 
 Name:    goofys
 Version: 0.19.0
-Release: 1
+Release: 2
 Summary: A high-performance, POSIX-ish Amazon S3 file system written in Go
 Group:   Development Tools
 License: ASL 2.0
 Source0: https://github.com/kahing/goofys/releases/download/v%{version}/goofys
+Requires: fuse
 
 %description
 Goofys allows you to mount an S3 bucket as a filey system.
